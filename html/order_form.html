@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/order_form.css">
+    <title>Order Online</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="h1">Order Online</h1>
+        <p></p>
+        <p></p>
+        </div>
+        <div class="navigation">
+            <nav class="navbar">
+                <ul>
+                  <li class="dropdown">
+                    <a href="#" class="dropbtn">Meal Plans</a>
+                    <div class="dropdown-content">
+                      <a href="meal_plans.html">Meal Plans</a>
+                      <a href="eligibility.html">Meal Plan Eligibility</a>
+                      <a href="buy_plan.html">Buy a Meal Plan</a>
+                      <a href="faqs.html">FAQs</a>
+                    </div>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropbtn">Hours</a>
+                    <div class="dropdown-content">
+                      <a href="hours_operation.html">Hours of Operation</a>
+                      <a href="menu.html">Menu</a>
+                      <a href="map.html">Campus Map</a>
+                      <a href="after_hours.html">After Hours</a>
+    
+                    </div>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropbtn">Wellness</a>
+                    <div class="dropdown-content">
+                      <a href="links.html">Nutrition Links</a>
+                      <a href="questions.html">Nutrition Questions</a>
+                      <a href="allergens.html">Allergens</a>
+                    </div>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropbtn">Catering</a>
+                    <div class="dropdown-content">
+                      <a href="order_online.html">Order Online</a>
+                      <a href="food_trucks.html">Food Trucks</a>
+                      <a href="partners.html">Partners</a>
+                    </div>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropbtn">About Us</a>
+                    <div class="dropdown-content">
+                      <a href="chef_bio.html">Chef Bio</a>
+                      <a href="mission_statement.html">Mission Statment</a>
+                      <a href="reviews.html">Reviews</a>
+                      <a href="contact.html">Contact Us</a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    <div>
+    <div class="form_div">
+      <h2 id="h2">Order Form</h2>
+      <form class="form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required> <br><br>
+        <label for="studentID">Student ID:</label>
+        <input type="text" id="studentID" name="studentID" required> <br><br>
+        <label for="phoneNum">Phone Number:</label>
+        <input type="text" id="number" name="number" required> <br><br>
+        <label for="food">Please Select Meal: </label>
+          <select id="food" name="food" required>
+            <option>Breakfast Bowl</option>
+            <option>Pizza</option>
+            <option>Nachos</option>
+            <option>Breakfast Burrito</option>
+            <option>Classic Burger</option>
+            <option>Chicken Tenders</option>
+            <option>Sausage Biscuit</option>
+            <option>French Toast Sticks</option>
+            <option>Milkshake</option>
+          </select> <br><br>
+        <label for="quantity">Quantity:</label> 
+        <input type="number" id="quantity" name="quantity" min="1" max="10" required> <br><br>
+        <span id="error" class="error"></span>
+        <input type="submit" value="Submit"> <br><br>
+      </form>
+    </div>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <div class="footer">   
+        <footer>
+            <p><b>Davis Classic Dining 2024. All rights reserved.</b></p>
+        </footer>
+    </div>
+</body>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Form</title>
+    <style>
+        /* Optional: Add some basic styling */
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
